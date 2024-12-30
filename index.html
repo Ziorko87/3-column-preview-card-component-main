@@ -18,12 +18,12 @@
     <link rel="stylesheet" href="./main.css" />
     <title>Frontend Mentor | 3-column preview card component</title>
   </head>
-  <body class="px-6 py-[5.5rem] bg-primary-bgGray xl:px-0">
+  <body class="px-6 py-[5.5rem] bg-primary-bgGray xl:py-0 xl:px-0">
     <!--main-->
-    <main>
+    <main class="h-screen flex items-center justify-center">
       <!--grid container-->
       <div
-        class="grid grid-cols-1 rounded-md overflow-hidden xl:grid-cols-3 xl:max-w-[920px] xl:mx-auto xl:h-screen xl:items-center xl:py-0"
+        class="bg-red-300 grid grid-cols-1 rounded-md overflow-hidden max-w-2xl mx-auto xl:grid-cols-3 xl:max-w-[920px] xl:items-center xl:justify-center xl:py-0 xl:rounded-lg"
       >
         <!--card one-->
         <div class="bg-primary-brightorange px-10 py-12">
@@ -69,13 +69,13 @@
             >Learn More</a
           >
         </div>
-          <!--card two-->
-        <div class="bg-primary-darkcyan px-10 py-12">
+        <!--card three-->
+        <div class="bg-primary-verydarkcyan px-10 py-12">
           <img class="mb-8" src="./images/icon-suvs.svg" alt="car sedab icon" />
           <h2
             class="font-shoulders text-[38px] font-bold text-white opacity-90 uppercase mb-5"
           >
-            SUVs
+            Luxury
           </h2>
           <p
             class="text-white opacity-60 font-normal tracking-wide mb-8 xl:tracking-normal xl:pr-8 xl:mb-[90px]"
@@ -84,12 +84,11 @@
             Perfect for your next family vacation and off-road adventures.
           </p>
           <a
-            class="inline-block px-8 py-3 bg-white opacity-90 text-primary-darkcyan rounded-full hover:bg-primary-darkcyan hover:text-white hover:outline"
+            class="inline-block px-8 py-3 bg-white opacity-90 text-primary-verydarkcyan rounded-full hover:bg-primary-verydarkcyan hover:text-white hover:outline"
             href="#"
             >Learn More</a
           >
         </div>
-       
       </div>
     </main>
   </body>
